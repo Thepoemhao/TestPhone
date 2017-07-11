@@ -1,6 +1,6 @@
 package com.yd.musicplay.presenter.contract;
 
-import com.yd.musicplay.MusicBean;
+import com.yd.musicplay.utils.MusicBean;
 
 import java.util.ArrayList;
 
@@ -11,6 +11,7 @@ import java.util.ArrayList;
 
 public interface MusicLocalListContract {
     interface View {
+
         void setLocalMusic(ArrayList<MusicBean> list);
     }
 

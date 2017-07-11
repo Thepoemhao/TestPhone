@@ -10,12 +10,14 @@
     <android.support.v7.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#DEDEDE">
+        android:background="#0EAD52">
 
         <TextView
             android:id="@+id/music_local_list_title"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="本地音乐"
+            android:textSize="20sp" />
     </android.support.v7.widget.Toolbar>
 
     <android.support.v7.widget.RecyclerView

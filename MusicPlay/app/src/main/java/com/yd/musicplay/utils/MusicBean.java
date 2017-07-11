@@ -1,4 +1,4 @@
-package com.yd.musicplay;
+package com.yd.musicplay.utils;
 
 import android.os.Parcel;
 import android.os.Parcelable;
